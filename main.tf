@@ -2,6 +2,7 @@
 resource "azurerm_resource_group" "example" {
   name     = "gen-${var.env}-actions-rg"
   location = "Australia East"
+  tags = {environment="123"}
 }
 
 resource "azurerm_service_plan" "example" {
