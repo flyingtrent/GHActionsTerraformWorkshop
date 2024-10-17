@@ -39,7 +39,9 @@ jobs:
 
 
     - name: Terraform Init
-      run: terraform init
+      run: |
+        terraform init \
+        -backend-config="resource_group_name=
 
     - name: Terraform Apply
       run: terraform apply -auto-approve

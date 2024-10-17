@@ -3,7 +3,7 @@
 
 
 # Define variable for display name
-DISPLAY_NAME="workshoptrent-masted-oidc"
+DISPLAY_NAME="workshoptrent-master-oidc"
 # Define variables for name and subject
 FEDERATED_IDENTITY_NAME="workshoptrent-master-federated-identity"
 FEDERATED_IDENTITY_SUBJECT="repo:flyingtrent/waiholiu/GHActionsTerraformWorkshop:ref:refs/heads/master"
